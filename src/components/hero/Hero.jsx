@@ -1,5 +1,6 @@
 import React from 'react'
 import my from "../../assets/logo/my.jpg"
+import { IoMdDownload } from "react-icons/io";
 import TypewriterText from '../TypewriterText'
 import MdAshiqIlahiResume from '../../assets/MdAshiqIlahiResume.pdf'
 function  Hero() {
@@ -14,7 +15,10 @@ function  Hero() {
       and full-stack applications with React, Node.js, Express, and MongoDB.
     </p>
     <button className="px-6 py-3 mt-6 text-sm md:text-lg font-medium hover:opacity-80 hover:scale-105 duration-300 rounded-2xl bg-blue-900 text-white border-none">
-      <a href={MdAshiqIlahiResume} download="MdAshiqIlahiResume">Resume</a>
+      <li className="flex gap-3 items-center">
+           <IoMdDownload />
+      <a href={MdAshiqIlahiResume} download="MdAshiqIlahiResume ">Resume </a>
+        </li>
     </button> 
   </div>
 
