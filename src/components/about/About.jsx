@@ -33,7 +33,7 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Frontend developer
+                  Frontend :
                 </h1>
                  <p className="text-sm md:text-md leading-tight flex gap-3 items-center w-screen py-4">
                     <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={html} alt="" /></li>
