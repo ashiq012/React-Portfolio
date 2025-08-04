@@ -1,6 +1,7 @@
 import React from 'react'
 import my from "../../assets/logo/my.jpg"
 import TypewriterText from '../TypewriterText'
+import MdAshiqIlahiResume from '../../assets/MdAshiqIlahiResume.pdf'
 function  Hero() {
   return (
     <div className="text-[#171d32] flex flex-col md:flex-row w-full justify-between items-center p-10 md:p-20 bg-white">
@@ -13,8 +14,8 @@ function  Hero() {
       and full-stack applications with React, Node.js, Express, and MongoDB.
     </p>
     <button className="px-6 py-3 mt-6 text-sm md:text-lg font-medium hover:opacity-80 hover:scale-105 duration-300 rounded-2xl bg-blue-900 text-white border-none">
-      Contact Me
-    </button>
+      <a href={MdAshiqIlahiResume} download="MdAshiqIlahiResume">Resume</a>
+    </button> 
   </div>
 
   <div className="w-full md:w-2/5 flex justify-center mt-6 md:mt-0  hover:scale-102 duration-300">
