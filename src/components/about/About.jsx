@@ -25,23 +25,23 @@ const About = () => {
       <div>
         <h2 className="text-2xl md:text-4xl font-bold">Tech Stack</h2>
         <div className="md:flex flex-wrap flex-col md:flex-row items-center gap-15 ">
-          <img className="md:h-80" src={log} alt="About img" />
+          <img className="md:h-80 hover:scale-110 duration-300 hover:shadow-xl/40" src={log} alt="About img" />
 
           <ul>
-            <div className="flex gap-3 py-4">
+            <div className="flex gap-4 tracking-normal py-4">
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
                   Frontend developer
                 </h1>
-                 <p className="text-sm md:text-md leading-tight flex gap-3 items-center">
-                    <li><img className="h-5 md:h-15" src={html} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={css} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={javascript} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={react} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={redux} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={tailwindcss} alt="" /></li>
+                 <p className="text-sm md:text-md leading-tight flex gap-3 items-center w-screen py-4">
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={html} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={css} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={javascript} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={react} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={redux} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={tailwindcss} alt="" /></li>
 
                   
                 </p>
@@ -55,11 +55,11 @@ const About = () => {
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
                   Backend :
                 </h1>
-                <p className="text-sm md:text-md leading-tight flex gap-3 items-center">
-                    <li><img className="h-5 md:h-15" src={nodejs} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={express} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={mongodb} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={mc} alt="" /></li>
+                <p className="text-sm md:text-md leading-tight flex gap-3 items-center py-4">
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={nodejs} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={express} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={mongodb} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={mc} alt="" /></li>
                 </p>
               </span>
             </div>
@@ -70,11 +70,11 @@ const About = () => {
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
                   Tools :
                 </h1>
-                <p className="text-sm md:text-md leading-tight flex gap-3 items-center">
-                    <li><img className="h-5 md:h-15" src={git} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={github} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={firebase} alt="" /></li>
-                    <li><img className="h-5 md:h-15" src={postman} alt="" /></li>
+                <p className="text-sm md:text-md leading-tight flex gap-3 items-center py-4">
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={git} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={github} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={firebase} alt="" /></li>
+                    <li><img className="h-5 md:h-14 hover:scale-130 duration-300" src={postman} alt="" /></li>
                 </p>
               </span>
             </div>
